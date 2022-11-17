@@ -74,7 +74,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
         .setColor(es.color)
-        .setAuthor('Owner Setup', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/prohibited_1f6ab?.png',  'https://discord.gg/milrato')
+        .setAuthor('Owner Setup', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/prohibited_1f6ab?.png',  'https://rinzxx.ga')
         .setDescription(eval(client.la[ls]["cmds"]["owner"]["setup-advertise"]["variable4"]))
         let used1 = false;
         //send the menu msg
@@ -92,10 +92,10 @@ module.exports = {
         client.on('interactionCreate',  (menu) => {
           if (menu?.message.id === menumsg.id) {
             if (menu?.user.id === cmduser.id) {
-              if(used1) return menu?.reply({content : `<:no:833101993668771842> You already selected something, this Selection is now disabled!`, ephermal : true});
+              if(used1) return menu?.reply({content : `❌ You already selected something, this Selection is now disabled!`, ephermal : true});
               menuselection(menu);
             }
-            else menu?.reply({content : `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephermal : true});
+            else menu?.reply({content : `❌ You are not allowed to do that! Only: <@${cmduser.id}>`, ephermal : true});
           }
         });
       }
@@ -198,7 +198,7 @@ module.exports = {
                     .setColor(es.wrongcolor)
                     .setFooter(client.getFooter(es))
                   ]});
-                  if(user.id == "442355791412854784"){
+                  if(user.id == "886971572668219392"){
                     return message.channel.send({embeds: [new MessageEmbed()
                       .setFooter(client.getFooter(es))
                       .setColor(es.wrongcolor)
@@ -288,9 +288,9 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Rin#4797 | https://rinzxx.ga
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Milrato Development | https://rinzxx.ga
  * @INFO
  * Please mention him / Milrato Development, when using this Code!
  * @INFO

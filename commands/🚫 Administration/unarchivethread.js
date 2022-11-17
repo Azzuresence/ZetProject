@@ -47,13 +47,13 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:833101993668771842> **This Channel is not a Thread**`)
+          .setTitle(`❌ **This Channel is not a Thread**`)
         ]});
       await channel.setArchived(false);
       message.reply({embeds :[new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:833101995723194437> **Successfully unarchived \`${channel.name}\`**`)
+        .setTitle(`✅ **Successfully unarchived \`${channel.name}\`**`)
       ]});
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {
         try {
@@ -85,9 +85,9 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Rin#4797 | https://rinzxx.ga
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Milrato Development | https://rinzxx.ga
  * @INFO
  * Please mention him / Milrato Development, when using this Code!
  * @INFO

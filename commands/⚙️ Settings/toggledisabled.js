@@ -20,7 +20,7 @@ module.exports = {
       return message.reply({embeds : [new MessageEmbed()
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:833101995723194437> ${client.settings.get(message.guild.id, "showdisabled") ? "Enabled": "Disabled"} Disabled-Cmds Showing`)
+        .setTitle(`✅ ${client.settings.get(message.guild.id, "showdisabled") ? "Enabled": "Disabled"} Disabled-Cmds Showing`)
         .setDescription(`${client.settings.get(message.guild.id, "showdisabled") ? "I will now show disabled commands in the Help Menu" : "I will not show disabled Commands in the Help Menu"}`.substring(0, 2048))
       ]});
     } catch (e) {
@@ -35,9 +35,9 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Rin#4797 | https://rinzxx.ga
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Milrato Development | https://rinzxx.ga
  * @INFO
  * Please mention him / Milrato Development, when using this Code!
  * @INFO

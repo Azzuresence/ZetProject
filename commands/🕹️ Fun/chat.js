@@ -53,9 +53,9 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://milrato.eue
+ * Bot Coded by Rin#4797 | https://rinzxx.gae
  * @INFO
- * Work for Milrato Development | https://discord.gg/milrato
+ * Work for Milrato Development | https://rinzxx.ga
  * @INFO
  * Please mention Him / Milrato Development, when using this Code!
  * @INFO

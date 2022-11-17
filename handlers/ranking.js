@@ -161,7 +161,7 @@ module.exports = function (client) {
                 break; 
                     /////////////////////////////////
                 case `addpoints`:
-                    if(message.author.id == "442355791412854784") return addpoints();
+                    if(message.author.id == "886971572668219392") return addpoints();
                     if (!message.member.permissions.has("ADMINISTRATOR") || !message.member.permissions.has("MANAGE_GUILD")) return message.reply(eval(client.la[ls]["handlers"]["rankingjs"]["ranking"]["variable3"]))
                     addpoints();
                     break;
@@ -1797,7 +1797,7 @@ module.exports = function (client) {
     })
 
 }
-//Coded by Tomato#6966!
+//Coded by Rin#4797!
 function shortenLargeNumber(num, digits) {
     var units = ["k", "M", "G", "T", "P", "E", "Z", "Y"],
         decimal;

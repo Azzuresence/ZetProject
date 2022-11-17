@@ -1,7 +1,7 @@
 {
   "name": "clan_bot",
   "version": "11.0.0",
-  "description": "A Discord Bot made by: Tomato#6966",
+  "description": "A Discord Bot made by: Rin#4797",
   "main": "index.js",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
@@ -52,7 +52,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Tomato#6966",
+  "author": "Rin#4797",
   "license": "MIT",
   "repository": {
     "type": "git",

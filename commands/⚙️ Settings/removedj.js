@@ -39,7 +39,7 @@ module.exports = {
         return message.reply({embeds: [new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:833101993668771842> **This Role is not a DJ-Role!**`)
+          .setTitle(`❌ **This Role is not a DJ-Role!**`)
         ]});
       //remove it from the Database
       client.settings.remove(message.guild.id, role.id, `djroles`);
@@ -67,9 +67,9 @@ module.exports = {
 };
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Rin#4797 | https://rinzxx.ga
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Milrato Development | https://rinzxx.ga
   * @INFO
   * Please mention him / Milrato Development, when using this Code!
   * @INFO

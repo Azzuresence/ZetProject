@@ -63,7 +63,7 @@ module.exports = {
         itemsvalue += prize * data.items[`${itemarray}`];
       }
       //function for yes or no, if its buyable!
-      const p2b = (costs) => (Number(costs) > Number(data.balance)) ? "<:no:833101993668771842>" : "<a:yes:833101995723194437>";
+      const p2b = (costs) => (Number(costs) > Number(data.balance)) ? "❌" : "✅";
       //return some message!
       if (!args[0])
         return message.reply({embeds: [new MessageEmbed()
@@ -197,9 +197,9 @@ module.exports = {
 };
 /**
 * @INFO
-* Bot Coded by Tomato#6966 | https://discord.gg/milrato
+* Bot Coded by Rin#4797 | https://rinzxx.ga
 * @INFO
-* Work for Milrato Development | https://milrato.eu
+* Work for Milrato Development | https://rinzxx.ga
 * @INFO
 * Please mention him / Milrato Development, when using this Code!
 * @INFO

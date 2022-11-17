@@ -34,7 +34,7 @@ Third Sponsor of This Bot is:
 
 [**Discord Server:**](https://discord.bero-host.de)
 [**Website:**](http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=milrato)
-[**__SPONSOR LINK!__**](https://milrato.eu/img/paysafecard.png)
+[**__SPONSOR LINK!__**](https://rinzxx.ga/img/paysafecard.png)
 `)
 		    .setImage("https://cdn.bero-host.de/img/logo/bero_white.png")
 		    .setFooter("BERO-HOST",  "https://imgur.com/jXyDEyb?.png")
@@ -66,9 +66,9 @@ Third Sponsor of This Bot is:
 }
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Rin#4797 | https://rinzxx.ga
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Milrato Development | https://rinzxx.ga
   * @INFO
   * Please mention him / Milrato Development, when using this Code!
   * @INFO

@@ -1,6 +1,6 @@
 # Public Bot and Support Server!
 
-<a href="https://discord.gg/dcdev"><img src="https://discord.com/api/guilds/773668217163218944/widget.png?style=banner2"></a>
+<a href="https://discord.gg/dcdev"><img src="https://discord.com/api/guilds/10093849711919882244/widget.png?style=banner2"></a>
  
 [**Invite the Public Version of this Bot**](https://milrato.milrato.dev) so you don't need to host it by yourself or [join my Discord server](https://discord.gg/dcdev) to get a custom Bot hosted for you!
 
@@ -148,7 +148,7 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
 # Credits
 
 > If you consider using this Bot, make sure to credit me!
-> Example: `Bot Coded by [Tomato#6966](https://discord.gg/dcdev) but modified by [modifier/your Name](https://discord.gg/)`
+> Example: `Bot Coded by [Rin#4797](https://discord.gg/dcdev) but modified by [modifier/your Name](https://discord.gg/)`
 
 # Contributing
 
